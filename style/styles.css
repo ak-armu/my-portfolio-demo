@@ -1,3 +1,99 @@
-.menubar{
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+
+}
+header{
+    display: flex;
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat:no-repeat ;
+    background-position: bottom right;
+
+}
+.developer-image{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.brand-title-style{
+    color: #FD6E0A;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 200px;
+    margin: 30px 0px 0px 150px;
+
+}
+nav>h3{
+    
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul>li {
     display: inline;
+    list-style-type: none;
+    margin-right:50px ;
+    align-items: center;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+.primary-button{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 0;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 0px 150px;
+
+}
+.banner-content>h4{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner-content>o{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-img{
+    width: 500px;
+    height: 700px;
+    margin-bottom: -5px;
+    margin-left: 300px;
+}
+
+.download-btn{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 0;
+
+}    
+.contact-btn{
+    background-color: #FFF8F3;
+    color: black;
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
 }
